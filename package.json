@@ -10,5 +10,9 @@
   },
   "dependencies": {
     "babel-preset-es2015": "^6.24.1"
+  },  
+  "scripts": {
+    "cypress:ui": "npx cypress open",
+    "cypress:open": "npx cypress run --spec cypress/e2e/aizon.feature --browser chrome"
   }
 }
