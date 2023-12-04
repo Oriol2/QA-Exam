@@ -29,7 +29,7 @@ OR
    ![Captura de pantalla (2)](https://github.com/Oriol2/QA-Exam/assets/90322159/44c8eb29-36b7-4cf0-b9f9-ff82b066e402)
 
 ### Test data (can be updated)
-- **username**: test
-- **password**: test
+- **username**: oriol
+- **password**: qatest
 
 
