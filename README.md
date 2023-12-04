@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-Please follow the next intructions to execute my code.
+Please follow the intructions to execute my code
 
 ### Test data
 - **username**: oriol
@@ -18,10 +18,10 @@ cy.wait("@view").then((xhr) => {
     cy.wrap(xhr.response.body.price).as("price");
   });
 ```
-![Captura de pantalla (3)](https://github.com/Oriol2/QA-Exam/assets/90322159/d03451a0-5f5d-4873-a995-ff9b8108d95c)
+![Captura de pantalla (4)](https://github.com/Oriol2/QA-Exam/assets/90322159/e5bec2e5-9943-4bee-8803-7eabcd1b9151)
 
 3. Therefore, the total order calculation will fail
-4. IMO, `https://api.demoblaze.com/view` API should return the total price amount in response instead of calling one API per product
+4. IMO, `https://api.demoblaze.com/view` API should fetch the total price amount in response instead of calling one API per product
 
 ### Installation
 
